@@ -1,0 +1,17 @@
+{
+  "name": "agagcypress",
+  "version": "1.0.0",
+  "description": "first tests with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test:dev":"cypress open --browser chrome",
+    "test:run":"cypress open --browser  firefox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
