@@ -4,8 +4,8 @@
   "description": "first tests with Cypress",
   "main": "index.js",
   "scripts": {
-    "test:dev":"cypress open --browser chrome",
-    "test:run":"cypress open --browser  firefox",
+    "test:dev": "cypress open --browser chrome",
+    "test:run": "cypress open --browser  firefox",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galinade/dgsypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/galinade/dgsypress/issues"
+  },
+  "homepage": "https://github.com/galinade/dgsypress#readme"
 }
