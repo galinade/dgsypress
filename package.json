@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test:dev": "cypress open --browser chrome",
+    "test:dev1": "cypress run --browser chrome --headless",
     "test:run": "cypress open --browser  firefox",
+    "test:run1": "cypress run --browser  firefox --headless",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
